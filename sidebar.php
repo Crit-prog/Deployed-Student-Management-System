@@ -1,6 +1,6 @@
 <style>
   .custom-color-class {
-    background-color: #355E3B;
+    background-color:rgb(10, 0, 124);
   }
 </style>
 <aside class="main-sidebar sidebar-dark-success custom-color-class elevation-4">

@@ -30,14 +30,16 @@ header("location:index.php?page=home");
 </head>
 <style>
 	body{
-		width: 100%;
-	    height: calc(100%);
+		  width: 110%;
+	    height: 100vh;
 	    position: fixed;
-	    top:0;
+	    top: 0;
 	    left: 0;
       align-items:center !important;
-	    background-image: url('cvsu_bg.jpg');
-        background-size: cover;
+	    background-image: url('cvsu_bg.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
 	}
 	#main{
 		width:100%;
@@ -59,7 +61,7 @@ header("location:index.php?page=home");
   <main id="main" >
   	
   		<div class="text-align-center w-100">
-		<h4 class="text-white text-center"><b><?php echo $_SESSION['system']['name'] ?></b></h4>
+		
   		<div id="login-center" class="row justify-content-center">
   			<div class="card col-md-4">
   				<div class="card-body">
